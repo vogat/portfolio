@@ -1,0 +1,46 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+
+body {
+    margin: 0;
+    font-family: "SF Pro Display", SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #5d326c, #350048);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+header, .project {
+    background-color: white;
+    margin: 1.6vmin;
+    padding: 2vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75vmin;
+    border-radius: 3vmin;
+}
+
+a {
+    margin-left: 3vmin;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-bottom: 2vmin;
+    text-indent: 1vmin;
+}
